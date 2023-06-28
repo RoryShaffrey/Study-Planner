@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Study Planner</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="book.ico" type="image/x-icon">
+    <script src="Study Planner.js"></script>
+</head>
+<body onload="taskStart()"><center>
+
+<h1>Study Planner</h1>
+<table id="maintable" border=1 width=50%>
+    <tr height="2"><th width=50%  align=center>Homework Page</th><th width=50%  align=center><a href="Consolidation.html">Consolidation Menu</a></th></tr><!--Main table-->
+    <td width=600 colspan=2> <!--Main row-->
+        <p class=title>
+            <button id="leftButton" class="button" onclick="inputTask()"> Add Task </button>
+            Homework Manager 
+            <button class="button" id="rightButton" onclick="changeTheme()">Change Theme</button>
+        </p> 
+    <table class="sidetable" align=center border=1 id="timetable"> <!--Table for the tasks-->
+        <tr><th width=50%><p title="Hover a task's name to see its description">Task Name:</p></th>
+            <th width=200><p title="Hover a task's due date to see when it was set">Due Date:</p></th>
+            <th width=75></th></tr>
+    </table><br>
+    </td></tr>
+</table>
+
+</center></body>
+
+</html>

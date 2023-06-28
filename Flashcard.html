@@ -1,0 +1,27 @@
+<html>
+  <head>
+  <title>Study Planner</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="book.ico" type="image/x-icon">
+  <script src="Study Planner.js">
+      </script>
+</head>
+<body onload="cardStart()"><center>
+
+  <h1>Study Planner</h1>
+  <table id="maintable" border="1" width="50%">
+    <tr><td width="600" colspan="2"> <!--Main row-->
+      <p class="title"><button id="leftButton" class="button" onclick="inputFlashcard()">Add Card</button><!--Make it so that the title is cut off with 3 dots if it exceeds a character length-->
+        <button id="rightButton" class="button" onclick="backButton()"><img src="back_arrow.png" width="30"> Back</button></a></p>
+        <p id="title">Title</p>
+        
+      <center><div id="container"><div id="card1">
+        <div id="top"><p id="cardside"><br></p>
+            <p id="cardcount"><br></p></div><hr color="black">
+          </div></div></center>
+            <img src="grey_left_arrow.png" width="40" id="leftArrow" class="arrow">
+            <button id="delete" class="button" onclick="deleteCard()">Delete Card</button>
+            <img src="grey_right_arrow.png" width="40" id="rightArrow" class="arrow">
+          <br></td></tr></tbody></table>
+</center>
+</body></html>
