@@ -12,4 +12,4 @@ My website is made up of two main parts: a task manager and a flashcard manager.
 
 ## Accessing the Wesbite
 
-To access my website, there is no download required. All you have to do is go to https://studyplanner.rfshaffrey.me and you will load it.
+To access my website, go to https://roryshaffrey.github.io/Study-Planner/
